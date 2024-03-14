@@ -1,35 +1,44 @@
 
-import img from '../assets/4775517.png'
+import img from '../assets/learning.png'
+import web from '../assets/web-development.png'
+import tool from '../assets/tool.png'
+import fe from '../assets/front-end.png'
+
+
+
 
 
 export const SKILLS =[
     {
         title: "Frontend",
-        icon: img,
+        icon: fe,
         skills:[
             {skill:"HTML" ,percentage:"40%"},
-            {skill:"HTML" ,percentage:"80%"},
-            {skill:"HTML" ,percentage:"100%"},
-            {skill:"HTML" ,percentage:"80%"}
+            {skill:"CSS" ,percentage:"80%"},
+            {skill:"JS" ,percentage:"100%"},
+            {skill:"REACT" ,percentage:"80%"},
+            {skill:"FLUTTER" ,percentage:"85%"}
+
         ]
     },
     {
         title: "Backend",
-        icon: img,
+        icon: web,
         skills:[
-            {skill:"HTML" ,percentage:"80%"},
+            {skill:"SQL" ,percentage:"80%"},
             {skill:"HTML" ,percentage:"60%"},
             {skill:"HTML" ,percentage:"90%"},
-            {skill:"HTML" ,percentage:"85%"}
+            {skill:"HTML" ,percentage:"85%"},
+
         ]
     },
     {
         title: "Tools",
-        icon: img,
+        icon: tool,
         skills:[
-            {skill:"HTML" ,percentage:"80%"},
-            {skill:"HTML" ,percentage:"60%"},
-            {skill:"HTML" ,percentage:"80%"},
+            {skill:"Git & Github" ,percentage:"60%"},
+            {skill:"Visual Studio Code" ,percentage:"75%"},
+            {skill:"Android Studio" ,percentage:"50%"},
             {skill:"HTML" ,percentage:"70%"}
         ]
     },

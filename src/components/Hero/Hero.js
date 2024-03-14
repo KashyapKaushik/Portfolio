@@ -2,10 +2,12 @@ import React from 'react'
 import './Hero.css'
 import photo from '../../assets/Himg.jpeg'
 import cssi from '../../assets/css.webp'
-import jsi from '../../assets/jss.png'
-import reacti from '../../assets/rece.png'
-import htmli from '../../assets/htmml.png'
-import r1 from '../../assets/rcce.png'
+import js1 from '../../assets/newjs.png'
+import atom from '../../assets/atom.png'
+import nhtml from '../../assets/newhtml.png'
+
+
+
 
 function Hero() {
   return (
@@ -19,16 +21,16 @@ function Hero() {
         <div className='hero-img'>
             <div>
                 <div className='tech-icon'>
-                <img src={r1} alt=''/>
+                <img src={atom} alt=''/>
                 </div>
                     <img src={photo} alt=''/>
             </div>
             <div>
             <div className='tech-icon'>
-                <img src={jsi} alt=''/>
+                <img src={js1} alt=''/>
             </div>
             <div className='tech-icon'>
-                <img src={htmli} alt=''/>
+                <img src={nhtml} alt=''/>
             </div>
             <div className='tech-icon'>
                 <img src={cssi} alt=''/>
