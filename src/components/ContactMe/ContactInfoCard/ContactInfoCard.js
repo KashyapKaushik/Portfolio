@@ -5,7 +5,7 @@ function ContactInfoCard({iconUrl,text,url}) {
   return (
     <div className='contact-details-card'>
         <div className='icon'>
-          <a href={url}> 
+          <a href={url} target="_blank"> 
             <img src={iconUrl} alt={text}/></a>
         </div>
         <p>{text}</p>

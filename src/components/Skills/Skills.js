@@ -13,7 +13,7 @@ function Skills() {
 
 
   return (
-    <section className='skills-container'>
+    <section className='skills-container' id='skillspart'>
         <h5>Technical Proficiency</h5>
         <div className='skills-content'>
             <div className='skills'>
