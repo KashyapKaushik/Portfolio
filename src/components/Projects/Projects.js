@@ -36,7 +36,7 @@ function Projects() {
         <div className='projects-content'>
         <Slider ref={sliderRef} {...settings}>
           {PROJECTS_DETAILS.map((item) => (
-            <ProjectsCard  key={item.title} title={item.title} photo={item.photo} subtitle={item.subtitle}/>
+            <ProjectsCard  key={item.title} title={item.title} photo={item.photo} subtitle={item.subtitle} link={item.link}/>
           ))}
         </Slider>
         </div>

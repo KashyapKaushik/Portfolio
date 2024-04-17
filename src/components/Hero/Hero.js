@@ -9,15 +9,21 @@ import nhtml from '../../assets/newhtml.png'
 
 
 
+
 function Hero() {
+    // const handleResumeClick = () => {
+    //     // Replace '[YOUR_RESUME_LINK]' with the URL of your resume
+    //     const resumeUrl = '[YOUR_RESUME_LINK]';
+    //     window.open(resumeUrl, '_blank'); // Opens the resume link in a new tab
+    // };
   return (
     <section className='hero-container'  id='heropart'>
         <div className='hero-content'>
-            <h2> building Digital Experience That Inspire</h2>
+            <h2> Building Digital Experience That Inspire</h2>
             <p>
                 Passionate Frontend Devloper | Transforming Ideas into Seamless and Visually Stunning Web & App Soluations  
             </p>
-            <button className='res-btn' onClick={() => {}}>Resume</button>
+            {/* <button className='res-btn' onClick={() => {window.open(resume)}}>Resume</button> */}
         </div>
         <div className='hero-img'>
             <div>

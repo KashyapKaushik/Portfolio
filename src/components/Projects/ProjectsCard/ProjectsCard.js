@@ -3,7 +3,7 @@ import './ProjectsCard.css'
 
 
 
-function ProjectsCard({subtitle,title,photo}) {
+function ProjectsCard({subtitle,title,photo,link}) {
     
   return (
     <div className='projects-card'>
@@ -15,7 +15,11 @@ function ProjectsCard({subtitle,title,photo}) {
             <label>{title}</label>
             <span>{subtitle}</span>
             </div>
-            <button className='des-btn' onClick={() => {}}><i class="ri-share-box-line"></i></button>
+            <button className='des-btn' onClick={() => window.open(link,'_blank')}>
+    <i className="ri-share-box-line"></i>
+</button>
+
+            {/* <button className='des-btn' onClick={() => {}}><i class="ri-share-box-line"></i></button> */}
 
         </div>
       

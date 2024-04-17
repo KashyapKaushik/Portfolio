@@ -41,6 +41,16 @@
     flex-direction: column;
 }
 
+.projects-desc-content label{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #6751b9;
+}
+
+.projects-desc-content span{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
 .des-btn {
     /* margin-top: 0.5rem; */
     font-size: 1.5rem;
